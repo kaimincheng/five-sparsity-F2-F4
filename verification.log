@@ -1,0 +1,115 @@
+==== C1 finite quintinomial enumeration ====
+Total candidates: 2821078
+Cubic survivors: 272
+Both small: 0
+Min fifth norm weight: 7
+Fifth weight histogram: 7:2 8:55 9:167 11:25 13:16 17:7
+C1: PASS
+==== C2, C3 affine collisions and integral lines (primary) ====
+residue (0, 0, 0) formal 17 H 69 lines 769
+residue (0, 0, 1) formal 13 H 48 lines 349
+residue (0, 0, 2) formal 14 H 54 lines 445
+residue (0, 1, 0) formal 13 H 48 lines 349
+residue (0, 1, 1) formal 13 H 48 lines 349
+residue (0, 1, 2) formal 13 H 51 lines 369
+residue (0, 2, 0) formal 14 H 54 lines 445
+residue (0, 2, 1) formal 13 H 51 lines 369
+residue (0, 2, 2) formal 13 H 51 lines 385
+residue (1, 0, 0) formal 13 H 48 lines 349
+residue (1, 0, 1) formal 13 H 48 lines 349
+residue (1, 0, 2) formal 13 H 51 lines 369
+residue (1, 1, 0) formal 13 H 48 lines 349
+residue (1, 1, 1) formal 17 H 69 lines 769
+residue (1, 1, 2) formal 14 H 54 lines 445
+residue (1, 2, 0) formal 13 H 51 lines 369
+residue (1, 2, 1) formal 14 H 54 lines 445
+residue (1, 2, 2) formal 13 H 51 lines 385
+residue (2, 0, 0) formal 14 H 54 lines 445
+residue (2, 0, 1) formal 13 H 51 lines 369
+residue (2, 0, 2) formal 13 H 51 lines 385
+residue (2, 1, 0) formal 13 H 51 lines 369
+residue (2, 1, 1) formal 14 H 54 lines 445
+residue (2, 1, 2) formal 13 H 51 lines 385
+residue (2, 2, 0) formal 13 H 51 lines 385
+residue (2, 2, 1) formal 13 H 51 lines 385
+residue (2, 2, 2) formal 14 H 54 lines 472
+C2/C3 exact assertions: PASS
+FORMAL Counter({13: 18, 14: 7, 17: 2})
+C2 75 by-hyperplane Counter({(0, 0, 1, 0): 16, (0, 1, 0, 0): 16, (1, 0, 0, 0): 16, (0, 1, -1, 0): 9, (1, -1, 0, 0): 9, (1, 0, -1, 0): 9})
+C3 11298 1026 7
+SEVEN ((0, 0, 0), (3, 2, 1), (0, 0, 0), 5, (0, 0, 0), 37, (333, 222, 111))
+SEVEN ((0, 2, 1), (1, 1, 1), (0, -1, 1), 5, (1, 0, 0), 108, (327, 326, 325))
+SEVEN ((0, 2, 1), (2, 1, 1), (0, -1, 1), 5, (1, 0, 0), 54, (327, 164, 163))
+SEVEN ((0, 2, 2), (1, 1, 0), (0, 0, 1), 5, (1, 0, 0), 108, (327, 326, 2))
+SEVEN ((1, 1, 1), (3, 2, 1), (0, 0, 0), 5, (0, 0, 0), 38, (343, 229, 115))
+SEVEN ((2, 1, 0), (1, 0, 0), (0, 1, -1), 5, (0, 1, 1), 109, (329, 4, 3))
+SEVEN ((2, 1, 2), (4, 3, 1), (1, -1, -1), 5, (1, 1, 0), 27, (329, 247, 83))
+==== C2, C3 affine collisions and integral lines (independent exterior minors) ====
+Independent exterior-minor verifier C2/C3: PASS
+formal support histogram Counter({13: 18, 14: 7, 17: 2})
+generic-weight<=5 hyperplanes 75 by plane Counter({(0, 0, 1, 0): 16, (0, 1, 0, 0): 16, (1, 0, 0, 0): 16, (0, 1, -1, 0): 9, (1, -1, 0, 0): 9, (1, 0, -1, 0): 9})
+integral affine lines 11298 low-generic-weight 1026 admissible 7
+final (0, 0, 0) 5 (333, 222, 111)
+final (0, 2, 1) 5 (327, 164, 163)
+final (0, 2, 1) 5 (327, 326, 325)
+final (0, 2, 2) 5 (327, 326, 2)
+final (1, 1, 1) 5 (343, 229, 115)
+final (2, 1, 0) 5 (329, 4, 3)
+final (2, 1, 2) 5 (329, 247, 83)
+==== C4 fifth-power supports, independent algorithms and CSV ====
+C4: I, r=0,...,4: weights [9, 8, 9, 9, 9]; determinant=conjugates: PASS
+C4: II, r=0,...,4: weights [9, 8, 9, 9, 9]; determinant=conjugates: PASS
+C4: III, r=0,...,4: weights [9, 9, 9, 13, 8]; determinant=conjugates: PASS
+C4: IV, r=0,...,4: weights [9, 8, 17, 9, 9]; determinant=conjugates: PASS
+C4: V, r=0,...,4: weights [11, 9, 8, 9, 11]; determinant=conjugates: PASS
+C4: VI, r=0,...,4: weights [11, 9, 8, 13, 9]; determinant=conjugates: PASS
+C4: VII, r=0,...,4: weights [17, 8, 9, 9, 9]; determinant=conjugates: PASS
+C4: verified all 338 CSV exponent pairs against both algorithms: PASS
+==== C5, C6 binary prime exceptions and Phi_13 over F4 ====
+C5: ord_p(2)=3: primes [7]
+C5: ord_p(2)=5: primes [31]
+C5: ord_p(2)=7: primes [127]
+C5: ord_p(2)=9: primes [73]
+C5: ord_p(2)=11: primes [23, 89]
+C5: ord_p(2)=13: primes [8191]
+C5: p=127, degree=7, weight=7: PASS
+C5: p=23, degree=11, weight=7: PASS
+C5: p=89, degree=11, weight=9: PASS
+C6: Phi_13 factorization into two degree-six F4 factors: PASS
+==== C7 binary mixing obstructions ====
+C7: d=35, degree=12, weight=9: PASS
+C7: d=93, degree=10, weight=7: PASS
+C7: d=155, degree=20, weight=11: PASS
+C7: d=217, degree=15, weight=7: PASS
+C7: d=219, degree=18, weight=9: PASS
+C7: d=365, degree=36, weight=13: PASS
+C7: d=511, degree=9, weight=7: PASS
+C7: d=2263, degree=45, weight=11: PASS
+==== C8 quaternary mixing obstructions ====
+C8: d=35, J=(1, 2, 3, 4), k=0, deg(Phi_d mod 2)=24: PASS
+C8: d=65, J=(1, 2, 3, 4), k=0, deg(Phi_d mod 2)=48: PASS
+C8: d=155, J=(1, 2, 3, 4), k=0, deg(Phi_d mod 2)=120: PASS
+C8: d=365, J=(1, 2, 3, 4), k=3, deg(Phi_d mod 2)=288: PASS
+C8: d=91, J=(1, 2, 3, 4), k=4, deg(Phi_d mod 2)=72: PASS
+C8: d=119, J=(1, 2, 3, 4), k=0, deg(Phi_d mod 2)=96: PASS
+C8: d=217, J=(1, 2, 5, 6), k=0, deg(Phi_d mod 2)=180: PASS
+C8: d=511, J=(1, 2, 3, 4), k=0, deg(Phi_d mod 2)=432: PASS
+C8: d=221, J=(1, 2, 3, 4), k=1, deg(Phi_d mod 2)=192: PASS
+C8: d=403, J=(1, 2, 3, 5), k=5, deg(Phi_d mod 2)=360: PASS
+C8: d=949, J=(1, 2, 3, 4), k=0, deg(Phi_d mod 2)=864: PASS
+C8: d=527, J=(1, 2, 3, 4), k=0, deg(Phi_d mod 2)=480: PASS
+C8: d=1241, J=(1, 2, 3, 4), k=0, deg(Phi_d mod 2)=1152: PASS
+C8: d=2263, J=(1, 2, 3, 5), k=8, deg(Phi_d mod 2)=2160: PASS
+C8: d=117, J=(1, 2, 3, 5), k=8, deg(Phi_d mod 2)=72: PASS
+C8: d=657, J=(1, 2, 3, 4), k=1, deg(Phi_d mod 2)=432: PASS
+==== C9 small cores ====
+C9: n=3, irreducible factors=2, max weight=3, weight histogram={2: 1, 3: 1}: PASS
+C9: n=5, irreducible factors=2, max weight=5, weight histogram={2: 1, 5: 1}: PASS
+C9: n=7, irreducible factors=3, max weight=3, weight histogram={2: 1, 3: 2}: PASS
+C9: n=9, irreducible factors=3, max weight=3, weight histogram={2: 1, 3: 2}: PASS
+C9: n=15, irreducible factors=5, max weight=5, weight histogram={2: 1, 3: 3, 5: 1}: PASS
+C9: n=21, irreducible factors=6, max weight=5, weight histogram={2: 1, 3: 3, 5: 2}: PASS
+C9: n=31, irreducible factors=7, max weight=5, weight histogram={2: 1, 3: 2, 5: 4}: PASS
+C9: n=63, irreducible factors=13, max weight=5, weight histogram={2: 1, 3: 6, 5: 6}: PASS
+C9: n=73, irreducible factors=9, max weight=5, weight histogram={2: 1, 3: 2, 5: 6}: PASS
+ALL CHECKS C1--C9 PASSED
