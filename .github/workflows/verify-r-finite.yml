@@ -1,0 +1,21 @@
+
+name: C1 - Verify finite quintinomials
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-c1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Compile C1 verifier
+        run: g++ -std=c++17 -O2 -Wall -Wextra verify_R_finite.cpp -o verify_R_finite
+
+      - name: Run C1 verifier
+        run: ./verify_R_finite
