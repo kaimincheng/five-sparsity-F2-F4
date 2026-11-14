@@ -1,0 +1,26 @@
+
+name: C1-C9 - All finite verifications
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-all:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run all finite checks C1-C9
+        run: bash run_all.sh
+
+      - name: Save verification log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-log
+          path: logs/verification.log
+          if-no-files-found: warn
